@@ -1,0 +1,23 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary and backup files
+*.tmp.*
+*.bak
+*.swp
+*~
+
+# Operating System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Workstation Cryptographic Pepper
+# NOTE: If you want all team members to generate identical synthetic aliases
+# for the same secrets across machines, commit this file.
+# If each team member should have their own isolated cryptographic seed, uncomment the line below:
+# .vault_pepper.key
